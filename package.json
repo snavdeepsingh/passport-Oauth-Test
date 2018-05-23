@@ -1,0 +1,25 @@
+{
+  "name": "passport-Oauth-Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snavdeepsingh/passport-Oauth-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snavdeepsingh/passport-Oauth-Test/issues"
+  },
+  "homepage": "https://github.com/snavdeepsingh/passport-Oauth-Test#readme"
+}
