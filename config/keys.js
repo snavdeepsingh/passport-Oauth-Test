@@ -1,6 +1,11 @@
+require('dotenv').config();
+
 module.exports = {
     google: {
-        clientID: "55440789112-1vstnb9113fqlphg0gch30t3j4grqc0r.apps.googleusercontent.com",
-        clientSecret: "filMFf6dcFP2lqjjCnjlu32n"
+        clientID: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET
+    },
+    mongodb:{
+        dbURI: process.env.MONGODB_URI
     }
 };
